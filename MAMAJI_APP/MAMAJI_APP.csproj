@@ -63,6 +63,7 @@
     <Content Include="ComplaintPage\DisplayComplaintDetails.aspx" />
     <Content Include="ComplaintPage\SearchComplaint.aspx" />
     <Content Include="DashboardMaster.Master" />
+    <Content Include="db\db_30Nov.sql" />
     <Content Include="Utilities\NewBroadcast.aspx" />
     <Content Include="WebService1.asmx" />
     <None Include="Web.Debug.config">
