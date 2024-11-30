@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="ComplaintPage\ComplaintRegistration.aspx" />
+    <Content Include="ComplaintPage\ComplaintList.aspx" />
     <Content Include="ComplaintPage\DisplayComplaintDetails.aspx" />
     <Content Include="ComplaintPage\SearchComplaint.aspx" />
     <Content Include="DashboardMaster.Master" />
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="ComplaintPage\ComplaintRegistration.aspx.designer.cs">
       <DependentUpon>ComplaintRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ComplaintPage\ComplaintList.aspx.cs">
+      <DependentUpon>ComplaintList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ComplaintPage\ComplaintList.aspx.designer.cs">
+      <DependentUpon>ComplaintList.aspx</DependentUpon>
     </Compile>
     <Compile Include="ComplaintPage\DisplayComplaintDetails.aspx.cs">
       <DependentUpon>DisplayComplaintDetails.aspx</DependentUpon>

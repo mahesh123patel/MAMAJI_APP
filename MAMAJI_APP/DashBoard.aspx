@@ -14,7 +14,7 @@
                                     <div class="card-footer d-flex align-items-center justify-content-between">
                                         <%--<a class="small text-white stretched-link" href="#">View Details</a>--%>
                                         <%--<asp:HyperLink CssClass="small text-white stretched-link"  runat="server" NavigateUrl="~/ComplaintPage/DisplayComplaintDetails.aspx">View Details</asp:HyperLink>--%>
-                                        <asp:LinkButton ID="btnOpenDetails" CssClass="small text-white stretched-link"  runat="server" PostBackUrl="~/ComplaintPage/DisplayComplaintDetails.aspx?st=o">View Details</asp:LinkButton>
+                                        <asp:LinkButton ID="btnOpenDetails" CssClass="small text-white stretched-link"  runat="server" PostBackUrl="~/ComplaintPage/ComplaintList.aspx?st=o">View Details</asp:LinkButton>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
@@ -34,7 +34,7 @@
                                         <h1><asp:Label ID="lblClosedCount" runat="server" Text="250"></asp:Label></h1></div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
                                         <%--<a class="small text-white stretched-link" href="#">View Details</a>--%>
-                                        <asp:LinkButton ID="btnClosedDetails" CssClass="small text-white stretched-link"  runat="server" PostBackUrl="~/ComplaintPage/DisplayComplaintDetails.aspx?st=c">View Details</asp:LinkButton>
+                                        <asp:LinkButton ID="btnClosedDetails" CssClass="small text-white stretched-link"  runat="server" PostBackUrl="~/ComplaintPage/ComplaintList.aspx?st=c">View Details</asp:LinkButton>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
@@ -46,7 +46,7 @@
                                     </div>
                                     <div class="card-footer d-flex align-items-center justify-content-between">
                                         <%--<a class="small text-white stretched-link" href="#">View Details</a>--%>
-                                        <asp:LinkButton ID="btnWipDetails" CssClass="small text-white stretched-link"  runat="server" PostBackUrl="~/ComplaintPage/DisplayComplaintDetails.aspx?st=w">View Details</asp:LinkButton>
+                                        <asp:LinkButton ID="btnWipDetails" CssClass="small text-white stretched-link"  runat="server" PostBackUrl="~/ComplaintPage/ComplaintList.aspx?st=w">View Details</asp:LinkButton>
                                         <div class="small text-white"><i class="fas fa-angle-right"></i></div>
                                     </div>
                                 </div>
