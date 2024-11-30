@@ -40,13 +40,13 @@ namespace MAMAJI_APP.ComplaintPage
             var complaint = complaintManager.GetComplaints(complaintID)[0];
             lblComplaintID.Text = complaint.ComplaintID.ToString();
             lblComplaintName.Text = complaint.ComplaintName;
-            lblDistrict.Text = complaint.DistrictName.ToString();
-            lblBlockID.Text = complaint.BlockName.ToString();
+            lblDistrict.Text = complaint.DistrictName;
+            lblBlockID.Text = complaint.BlockCode;
             lblComplaintAddress.Text = complaint.ComplaintAddress;
             lblConTypeID.Text = complaint.ConType.ToString();
             lblMobileNo.Text = complaint.MobileNo.ToString();
             lblDescription.Text = complaint.Description;
-            lblAssignOfficerID.Text = complaint.OfficerName.ToString();
+            lblAssignOfficerID.Text = complaint.OfficerName;
 
             LoadComplaintRemarks(complaintID);
 

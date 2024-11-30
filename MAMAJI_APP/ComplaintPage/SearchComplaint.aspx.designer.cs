@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MAMAJI_APP.ComplaintPage {
-    
-    
-    public partial class SearchComplaint {
-        
+namespace MAMAJI_APP.ComplaintPage
+{
+
+
+    public partial class SearchComplaint
+    {
+
         /// <summary>
         /// txtComplaintNo control.
         /// </summary>
@@ -20,7 +22,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtComplaintNo;
-        
+
         /// <summary>
         /// btnSearchComplaint control.
         /// </summary>
@@ -29,7 +31,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnSearchComplaint;
-        
+
         /// <summary>
         /// btnReset control.
         /// </summary>
@@ -38,7 +40,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button btnReset;
-        
+
         /// <summary>
         /// CompDetailsDiv control.
         /// </summary>
@@ -47,7 +49,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl CompDetailsDiv;
-        
+
         /// <summary>
         /// lblComplaintID control.
         /// </summary>
@@ -56,7 +58,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblComplaintID;
-        
+
         /// <summary>
         /// lblComplaintName control.
         /// </summary>
@@ -65,7 +67,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblComplaintName;
-        
+
         /// <summary>
         /// lblDistrict control.
         /// </summary>
@@ -74,7 +76,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDistrict;
-        
+
         /// <summary>
         /// lblBlockID control.
         /// </summary>
@@ -83,7 +85,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblBlockID;
-        
+
         /// <summary>
         /// lblComplaintAddress control.
         /// </summary>
@@ -92,7 +94,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblComplaintAddress;
-        
+
         /// <summary>
         /// lblConTypeID control.
         /// </summary>
@@ -101,7 +103,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblConTypeID;
-        
+
         /// <summary>
         /// lblMobileNo control.
         /// </summary>
@@ -110,7 +112,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMobileNo;
-        
+
         /// <summary>
         /// lblDescription control.
         /// </summary>
@@ -119,7 +121,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblDescription;
-        
+
         /// <summary>
         /// lblAssignOfficerID control.
         /// </summary>
@@ -128,7 +130,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblAssignOfficerID;
-        
+
         /// <summary>
         /// CompRemarkDiv control.
         /// </summary>
@@ -137,7 +139,7 @@ namespace MAMAJI_APP.ComplaintPage {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl CompRemarkDiv;
-        
+
         /// <summary>
         /// GridView1 control.
         /// </summary>

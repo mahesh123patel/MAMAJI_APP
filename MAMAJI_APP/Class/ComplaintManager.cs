@@ -128,7 +128,7 @@ namespace MAMAJI_APP.Class
                                 BlockCode = reader.IsDBNull(reader.GetOrdinal("BlockCode")) ? null : reader.GetString(reader.GetOrdinal("BlockCode")),
                                 BlockName = reader.IsDBNull(reader.GetOrdinal("BlockName")) ? null : reader.GetString(reader.GetOrdinal("BlockName")),
                                 TahsilCode = reader.IsDBNull(reader.GetOrdinal("TahsilCode")) ? null : reader.GetString(reader.GetOrdinal("TahsilCode")),
-                                TahsilName = reader.IsDBNull(reader.GetOrdinal("TahsilName")) ? null : reader.GetString(reader.GetOrdinal("BTahsilNamelockName")),
+                                TahsilName = reader.IsDBNull(reader.GetOrdinal("TahsilName")) ? null : reader.GetString(reader.GetOrdinal("TahsilName")),
                                 ThanaCode = reader.IsDBNull(reader.GetOrdinal("ThanaCode")) ? null : reader.GetString(reader.GetOrdinal("ThanaCode")),
                                 ThanaName = reader.IsDBNull(reader.GetOrdinal("ThanaName")) ? null : reader.GetString(reader.GetOrdinal("ThanaName")),
                                 ComplaintAddress = reader.IsDBNull(reader.GetOrdinal("ComplaintAddress")) ? null : reader.GetString(reader.GetOrdinal("ComplaintAddress")),

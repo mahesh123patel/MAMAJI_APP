@@ -44,6 +44,7 @@ namespace MAMAJI_APP.ComplaintPage
                 Description = Request.Form["txtDescription"],
                 CreatedBY = 1,
                 Status = "WIP",
+                AssignOfficerID = Convert.ToInt64(ddlOfficer.SelectedItem.Value),
                 //AssignOfficerID = ddlDistrict.SelectedItem.Value : null,
                 ISBlocked = "A"
             };
